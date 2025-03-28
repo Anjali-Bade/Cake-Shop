@@ -1,0 +1,421 @@
+.navbar-main .cake_logo{
+    /* height: 60px;
+    width:60px; */
+    border-radius: 20px;
+    margin-right: 77rem;
+}
+.navbar-main img{
+    height: 50px;
+    width:50px;
+}
+.navbar-main{
+  display: flex;
+  justify-content:flex-end;
+  background-color: #706e6e;
+  padding:10px 20px;
+  align-items: center;
+  position: fixed;
+  top:0;
+  left:0;
+  width:100%;
+  /* box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); */
+ 
+}
+.navbar-main .cart .bi{
+    color:black;
+   font-size: 40px;
+}
+.navbar a{
+    color:white;
+    /* margin-left:30px; */
+    margin-right:50px;
+    padding:9px;
+    cursor:pointer;
+    font-size:26px;
+    font-weight: bold;
+    text-decoration: none;
+    
+}
+.navbar:hover{
+    background-color:#575757;
+    border-radius: 10px;
+    text-align: center;
+    
+  
+   
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-btn {
+    background-color: #706e6e;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size:23px;
+    font-weight: bold;   
+
+}
+.dropdown-btn:hover{
+    background-color:#575757;
+    border-radius: 10px;
+    text-align: center;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 200px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    z-index: 1;
+    font-size:23px;
+    font-weight: bold;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 10px 15px;
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+    background-color: rgb(138, 208, 243);
+    height: 20px;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+/* ---------------------------------------------------------------------Navbar-End------------------------------------------- */
+/* ---------------------------------------------------------------------About-us------------------------------------------- */
+
+.Info{
+    display: flex;
+    background-color:rgb(236, 240, 241);
+    flex-direction: row;
+    width:100%;
+    height: 100vh; 
+}
+
+.Info-1{
+    /* background-color:rgb(236, 240, 241); */
+     width:50%;
+     display: flex;
+      justify-content: center; 
+      align-items: center; 
+     
+}
+.Info-1 img{
+    height:80%;
+    width:79%;
+    border-radius: 155px;
+     margin-top: 130px;
+    /* margin-left: 46px; */ */
+}
+.Info-2{
+   
+  
+    width:50%;
+}
+.Info-2 pre{
+    font-size:24px;
+    font-weight: 999;
+    /* margin-top: 70px; */
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    /* font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+
+}
+
+
+
+/* ---------------------------------------------------------------------About-us-End------------------------------------------- */
+.first-Page{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height:100vh;
+   
+}
+.left{
+    flex: 1;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    /* background-color: yellow; */
+   height: 100vh;
+   align-items: center;
+   justify-content: center;
+}
+.left h1{
+       margin-left: 60px;
+       font-size:48px;
+       /* font-family: Arial, Helvetica, sans-serif; */
+}
+.left p{
+    font-size:20px;
+ color:rgb(77, 74, 74);
+}
+.left button{
+   height: 50px;
+   width: 160px;
+   margin-top: 10px;
+   font-size: 20px;
+   border-radius: 8px;
+   background-color: rgb(78, 76, 76);
+   color:white;
+}
+.left button:hover{
+  color: black;
+  background-color: rgb(14, 213, 213);
+}
+.first-Page .left {
+    display: flex;
+    flex-direction: column;
+}
+/* .left-1{
+    background-color: aqua;
+    height:20px;
+} */
+.right{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    /* background-color: red; */
+    width: 50%;
+    height: 100vh;
+}
+.right img{
+    height: 75%;
+    width: 95%;
+    margin-top: 90px;
+  
+} 
+
+/* ----------------------------second-page-------------------------------------- */
+.about{
+    height:80px;
+    width:100%;
+    /* background-color: rgb(205, 216, 234); */
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;  
+}
+.about h1{
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 70px;
+    margin-top: 80px;
+    
+}
+.second-Page{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height:88vh;
+    background-color:rgb(236, 240, 241);
+    
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+/* .second-Page .cake1{
+    background-color:aqua;
+    height: 100vh;
+    width:25%;
+} */
+.second-Page .cake1 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size:20px;
+    color:rgb(0, 0, 0);
+}
+.second-Page .cake2 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size:20px;
+    color:rgb(0, 0, 0);
+}
+.second-Page .cake3 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size:20px;
+    color:rgb(0, 0, 0);
+}
+.second-Page .cake4 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size:20px;
+    color:rgb(0, 0, 0);
+}
+.second-Page .cake1{
+    height: 70vh;
+    background-color:rgb(217, 237, 243);
+    width: 22%;
+    text-align: center;
+    border-radius: 60px;
+    margin-top: 40px;
+}
+.second-Page .cake1:hover{
+    background-color: rgb(205, 216, 234);
+}
+.second-Page .cake2{
+    /* background-color:blueviolet; */
+    height: 70vh;
+    background-color:rgb(217, 237, 243);
+   
+    width: 22%;
+    text-align: center;
+    border-radius: 60px;
+    margin-top: 40px;
+}
+.second-Page .cake2:hover{
+    background-color: rgb(205, 216, 234);
+}
+.second-Page .cake3{
+    /* background-color:coral; */
+    height: 70vh;
+    background-color:rgb(217, 237, 243);
+    width: 22%;
+    text-align: center;
+    border-radius: 60px;
+    margin-top: 40px;
+}
+.second-Page .cake3:hover{
+    background-color: rgb(205, 216, 234);
+}
+.second-Page .cake4{
+    /* background-color:darkgreen; */
+    height: 70vh;
+    background-color:rgb(217, 237, 243);
+    width: 22%;
+    text-align: center;
+    border-radius: 60px;
+    margin-top: 40px;
+}
+.second-Page .cake4:hover{
+    background-color: rgb(205, 216, 234);
+}
+.second-Page .cake1 img{
+    height:60%;
+    width: 90%;
+    border-radius: 50px;
+    margin-top: 10px;
+}
+.second-Page .cake2 img{
+    height:60%;
+    width: 90%;
+    border-radius: 50px;
+    margin-top: 10px;
+}
+.second-Page .cake3 img{
+    height:60%;
+    width: 90%;
+    border-radius: 50px;
+    margin-top: 10px;
+}
+.second-Page .cake4 img{
+    height:60%;
+    width: 90%;
+    border-radius: 50px;
+    margin-top: 10px;
+}
+.second-Page .cake1 .star1{
+    height: 40px;
+    width:40px;
+}
+.bi{
+    color:#d9d90b;
+    height:20px;
+    width:20px;
+}
+i {
+    font-size: 30px; /* Adjust as needed */
+}
+.second-Page .cake1 .price{
+    color:green;
+    font-weight: 800;
+}
+.second-Page .cake2 .price{
+    color:green;
+    font-weight: 800;
+}
+.second-Page .cake3 .price{
+    color:green;
+    font-weight: 800;
+}
+.second-Page .cake4 .price{
+    color:green;
+    font-weight: 800;
+}
+.button{
+    height: 40px;
+   width: 160px;
+   margin-top: 0px;
+   font-size: 18px;
+   border-radius: 8px;
+   background-color: rgb(123, 73, 73);
+   color:white;
+   cursor: pointer;
+}
+.button:hover{
+    background-color: rgb(59, 214, 237);
+color:rgb(6, 3, 3) ;
+}
+
+
+
+
+/* ----------------------------------------------------------------------footer-------------------------------------------------- */
+
+footer{
+    background-color: rgb(102, 100, 100);
+    color:white;
+    padding:20px;
+    
+    display:grid;
+    grid-template-columns: 2.4fr 2.4fr 2.4fr 2.4fr 2.4fr; 
+}
+
+.footer-title{
+    font-weight:bold;
+    margin-bottom:20px;
+    font-family:Arial;
+}
+
+
+.footer-brand-title{
+    font-size:30px;
+    font-family:Arial;
+    font-weight:bold;
+    margin-bottom:20px;
+}
+
+.footer-title~span{
+    display:block;
+    margin-bottom:15px;
+}
+
+address span{
+    display:block;
+    margin-bottom:15px;
+    font-family:Arial;
+}
+
+
+.footer-brand-title~div span{
+    margin-right:10px;
+    font-size:20px;
+}

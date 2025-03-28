@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown with Navigation</title>
+    <style>
+        .scroll-container {
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+    display: flex;
+    flex-direction: row-reverse; /* Right to left scrolling */
+    scrollbar-width: thin; /* Firefox */
+    scrollbar-color: #ff69b4 transparent;
+}
+
+.scroll-container::-webkit-scrollbar {
+    height: 8px; /* Scrollbar thickness */
+}
+
+.scroll-container::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.scroll-container::-webkit-scrollbar-thumb {
+    background-color: #ff69b4; /* Pink scrollbar */
+    border-radius: 10px;
+}
+
+.cake-box {
+    min-width: 300px;
+    margin: 10px;
+    background: #f8f8f8;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.cake-box img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+    </style>
+</head>
+<body>
+
+    <div class="scroll-container">
+        <div class="cake-box"><img src="images/cake1.jpg"><p>Cake 1</p></div>
+        <div class="cake-box"><img src="images/cake2.jpg"><p>Cake 2</p></div>
+        <div class="cake-box"><img src="images/cake3.jpg"><p>Cake 3</p></div>
+        <div class="cake-box"><img src="images/cake4.jpg"><p>Cake 4</p></div>
+        <div class="cake-box"><img src="images/cake5.jpg"><p>Cake 5</p></div>
+        <div class="cake-box"><img src="images/cake6.jpg"><p>Cake 6</p></div>
+        <div class="cake-box"><img src="images/cake7.jpg"><p>Cake 7</p></div>
+        <div class="cake-box"><img src="images/cake8.jpg"><p>Cake 8</p></div>
+        <div class="cake-box"><img src="images/cake9.jpg"><p>Cake 9</p></div>
+        <div class="cake-box"><img src="images/cake10.jpg"><p>Cake 10</p></div>
+    </div>
+    
+</body>
+</html>
